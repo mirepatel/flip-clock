@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# 🌿 Flip Clock
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Design × Development
 
-## Available Scripts
+.˚⊹₊⟡⋆
 
-In the project directory, you can run:
+A minimalist ambient productivity dashboard featuring a fluid 3D flip clock display, integrated music player controls, and an interactive sidebar configuration. Built to showcase precise layout engineering and satisfying CSS animations.
 
-### `npm start`
+🟢 **[Live Demo](https://my-flipclock.vercel.app)**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✦ About
 
-### `npm test`
+Flip Clock is a browser-based aesthetic environment designed for deep focus and study spaces. Moving away from cluttered management suites, it serves as a serene companion dashboard that sits softly in the background of your workflow.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The core design centers on visual restraint, smooth tactile motion cues, and interactive modular components that can be resized or auto-hidden to maintain a clean workspace.
 
-### `npm run build`
+₊⊹
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✦ Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🌱 **3D Animation Mechanics** • High-fidelity flip clock interface mirroring traditional mechanical split-flap display behaviors.  
+🌱 **Focus Audio Integration** • Minimalist built-in music player setup engineered to maintain flow and concentration.  
+🌱 **Adaptive Real Estate** • Modular layout equipped with a resizable control bar system to fit personal view layouts.  
+🌱 **Auto-Hiding Interface** • Smart UI optimization controlled via custom React utility hooks that cleanly fade clutter when inactive.  
 
-### `npm run eject`
+₊⊹
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ✦ Tech
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![React](https://img.shields.io/badge/React-0f172a?style=flat&logo=react&logoColor=white&labelColor=0f172a) •
+![JavaScript](https://img.shields.io/badge/JavaScript-0f172a?style=flat&logo=javascript&logoColor=white&labelColor=0f172a) •
+![CSS3](https://img.shields.io/badge/CSS3-0f172a?style=flat&logo=css3&logoColor=white&labelColor=0f172a) •
+![HTML5](https://img.shields.io/badge/HTML5-0f172a?style=flat&logo=html5&logoColor=white&labelColor=0f172a)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+₊⊹
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ✦ Architecture
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```text
+flip-clock/
+├── package.json
+├── package-lock.json
+├── README.md
+├── LICENSE
+├── public/
+│   ├── index.html
+│   └── manifest.json
+└── src/
+    ├── index.js
+    ├── index.css
+    ├── App.js
+    ├── App.css
+    ├── components/
+    │   ├── FlipClockComponent.js     # Split-flap clock state engine
+    │   ├── MusicPlayerComponent.js   # Focus audio system controller
+    │   ├── ResizableBarComponent.js  # Dynamic layout control system
+    │   └── SidebarComponent.js       # Navigation and configuration panel
+    ├── css/
+    │   ├── FlipClock.css
+    │   ├── MusicPlayer.css
+    │   ├── ResizableBar.css
+    │   └── Sidebar.css
+    └── hooks/
+        └── useAutoHide.js            # Inactivity visual fading mechanism
 
-### Code Splitting
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+₊⊹
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ✦ Credits
 
-### Making a Progressive Web App
+* **Inspiration** • Designed for modern aesthetic workspaces, utilizing advanced keyframes and structural transforms to render physics-accurate physical interactions in software.
+* **Horizon** • Future iterations aim to include custom Lo-Fi audio streaming feeds, toggleable Pomodoro focus interval timers, and local theme styling presets.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+₊⊹
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ✦ Connect
 
-### Deployment
+[LinkedIn](https://www.linkedin.com/in/mirepatel) • [Portfolio](https://mirepatel.framer.website/) • [Email](mailto:mirepatel@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+**C**ode
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**C**reativity
+
+**C**ontinuous Learning
+
+•··
